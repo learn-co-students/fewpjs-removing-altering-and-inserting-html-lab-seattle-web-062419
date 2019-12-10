@@ -6,6 +6,6 @@ let newHeader = document.createElement("h1");
 
 newHeader.id = "victory";
 
-newHeader.innerText = " is the champion";
+newHeader.innerHTML = " is the champion";
 
 newHeader = document.body.appendChild(newHeader);
